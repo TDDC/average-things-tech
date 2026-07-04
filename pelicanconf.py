@@ -4,6 +4,10 @@ SITEURL = ""
 
 PATH = "content"
 
+ARTICLE_PATHS = ['articles', 'episodes']
+PAGE_PATHS = ['pages', 'notes']
+STATIC_PATHS = ['images']
+
 TIMEZONE = 'Asia/Kolkata'
 
 DEFAULT_LANG = 'en'
