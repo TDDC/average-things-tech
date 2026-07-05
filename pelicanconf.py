@@ -19,6 +19,10 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+# Menu settings
+DISPLAY_PAGES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = False
+
 # Blogroll
 LINKS = []
 
@@ -28,6 +32,7 @@ SOCIAL = []
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
+
 # Clean URL structure
 ARTICLE_URL = '{category}/{slug}/'
 ARTICLE_SAVE_AS = '{category}/{slug}/index.html'
