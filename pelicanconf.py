@@ -4,7 +4,7 @@ SITEURL = ""
 
 PATH = "content"
 
-ARTICLE_PATHS = ['articles', 'episodes']
+ARTICLE_PATHS = ['articles', 'episodes', 'guides', 'open-letters', 'white-papers']
 PAGE_PATHS = ['pages', 'notes']
 STATIC_PATHS = ['images']
 
@@ -20,8 +20,18 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Menu settings
-DISPLAY_PAGES_ON_MENU = True
+DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
+
+MENUITEMS = [
+    ('Home', '/'),
+    ('Start Here', '/start-here/'),
+    ('Guides', '/guides/'),
+    ('Articles', '/articles/'),
+    ('Open Letters', '/open-letters/'),
+    ('White Papers', '/white-papers/'),
+    ('About', '/about/'),
+]
 
 # Blogroll
 LINKS = []

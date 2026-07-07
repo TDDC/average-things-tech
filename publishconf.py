@@ -11,6 +11,16 @@ from pelicanconf import *
 SITEURL = "https://tddc.github.io/average-things-tech"
 RELATIVE_URLS = False
 
+MENUITEMS = [
+    ('Home', f'{SITEURL}/'),
+    ('Start Here', f'{SITEURL}/start-here/'),
+    ('Guides', f'{SITEURL}/guides/'),
+    ('Articles', f'{SITEURL}/articles/'),
+    ('Open Letters', f'{SITEURL}/open-letters/'),
+    ('White Papers', f'{SITEURL}/white-papers/'),
+    ('About', f'{SITEURL}/about/'),
+]
+
 FEED_ALL_ATOM = "feeds/all.atom.xml"
 CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"
 
