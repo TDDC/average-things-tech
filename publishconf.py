@@ -17,6 +17,7 @@ MENUITEMS = [
     ('Start Here', f'{SITEURL}/start-here/'),
     ('Guides', f'{SITEURL}/guides/'),
     ('Articles', f'{SITEURL}/articles/'),
+    ('Big Ideas', f'{SITEURL}/big-ideas/'),
     ('Open Letters', f'{SITEURL}/open-letters/'),
     ('White Papers', f'{SITEURL}/white-papers/'),
     ('About', f'{SITEURL}/about/'),

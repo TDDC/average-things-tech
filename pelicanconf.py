@@ -4,7 +4,7 @@ SITEURL = ""
 
 PATH = "content"
 
-ARTICLE_PATHS = ['articles', 'episodes', 'guides', 'open-letters', 'white-papers']
+ARTICLE_PATHS = ['articles', 'episodes', 'guides', 'open-letters', 'white-papers', 'big-ideas']
 PAGE_PATHS = ['pages', 'notes']
 STATIC_PATHS = ['images']
 
@@ -42,6 +42,7 @@ MENUITEMS = [
     ('Start Here', '/start-here/'),
     ('Guides', '/guides/'),
     ('Articles', '/articles/'),
+    ('Big Ideas', '/big-ideas/'),
     ('Open Letters', '/open-letters/'),
     ('White Papers', '/white-papers/'),
     ('About', '/about/'),
