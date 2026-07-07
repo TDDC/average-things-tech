@@ -12,6 +12,20 @@ TIMEZONE = 'Asia/Kolkata'
 
 DEFAULT_LANG = 'en'
 
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.extra': {},
+        'markdown.extensions.codehilite': {
+            'css_class': 'highlight',
+        },
+        'markdown.extensions.meta': {},
+        'markdown.extensions.toc': {
+            'permalink': True,
+        },
+    },
+    'output_format': 'html5',
+}
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
