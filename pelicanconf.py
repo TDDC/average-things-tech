@@ -20,7 +20,7 @@ MARKDOWN = {
         },
         'markdown.extensions.meta': {},
         'markdown.extensions.toc': {
-            'permalink': True,
+            
         },
     },
     'output_format': 'html5',
