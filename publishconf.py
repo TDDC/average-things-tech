@@ -9,6 +9,7 @@ from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
 SITEURL = "https://tddc.github.io/average-things-tech"
+INDEX_SAVE_AS = 'blog/index.html'
 RELATIVE_URLS = False
 
 MENUITEMS = [

@@ -40,6 +40,11 @@ LINKS = []
 SOCIAL = []
 
 DEFAULT_PAGINATION = 10
+DELETE_OUTPUT_DIRECTORY = True
+
+# Move default article listing away from homepage
+# The custom homepage will be generated from content/pages/home.md as index.html
+INDEX_SAVE_AS = 'blog/index.html'
 
 # Uncomment following line if you want document-relative URLs when developing
 
