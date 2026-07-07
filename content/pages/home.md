@@ -1,9 +1,7 @@
-Title: Home
+Title: Simple Tech. Real Use. No Drama.
 Slug: home
 URL:
 Save_as: index.html
-
-Simple tech. Real use. No drama.
 
 Average Things Tech is a beginner-friendly place for Linux, open-source tools, Neovim, practical computing, and respectful technology advocacy.
 
